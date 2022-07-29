@@ -24,7 +24,7 @@ body::-webkit-scrollbar {
 
 .head h1 {
   font-family: "Lobster", cursive;
-  font-size: 5rem;
+  font-size: 4rem;
   color: lightblue;
   margin-right: 2em;
   margin-left: 2em;
@@ -109,7 +109,7 @@ a {
   margin: 0.6em;
   margin-top: 0.7em;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 .car{
   display: flex;
@@ -236,7 +236,7 @@ a {
   }
 
   .intro h1{
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
 
   .navbar a {
