@@ -20,14 +20,19 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   margin: 10px;
+  margin-bottom: 0;
+}
+
+.head img{
+  width: 8%;
 }
 
 .head h1 {
   font-family: "Lobster", cursive;
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: lightblue;
-  margin-right: 2em;
-  margin-left: 2em;
+  margin-right: 1em;
+  margin-left: 1em;
 }
 
 .head span {
@@ -49,18 +54,40 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   margin: 1em;
-  margin-bottom: -4px;
-  margin-left: 1em;
 }
+
 .intro,
 .about,
 .contact {
-  margin-bottom: 27px;
+  margin-bottom: 2em;
 }
 
+.box {
+  color: cornflowerblue;
+  background-color: #0000005b;
+  padding: 20px;
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 2px;
+}
+
+.intro p{
+  margin-top: -9px;
+  padding-bottom: 20px;
+}
+
+#pfp{
+  margin: 1px 10px 7px 10px;
+  float: left;
+  height: 90px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+}
 .body h2 {
+  margin-left: 12px;
+  font-size: 1.3em;
   font-family: "JetBrains Mono", monospace;
-  font-size: 2rem;
   margin-bottom: 10px;
   color: lightcoral;
 }
@@ -70,15 +97,9 @@ ul,
 a {
   font-family: 'PT Mono', monospace;
   margin-left: 3.5em;
-  font-size: 1.3rem;
+  font-size: 0.9em;
   color: ghostwhite;
-}
-
-.intro p {
-  margin-left: 3em;
-}
-#p2 {
-  margin-top: 1em;
+  margin-bottom: 10px;
 }
 
 .body ul {
@@ -103,23 +124,41 @@ a {
   font-family: "Rubik Glitch", cursive;
 }
 
-.intro h1{
+.quote h1{
   font-family: 'PT Mono', monospace;
   color: cornsilk;
-  margin: 0.6em;
-  margin-top: 0.7em;
+  margin: 1.2em 3em 15px 3em;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.4em;
 }
-.car{
-  display: flex;
-  justify-content: space-evenly;
-}
-.car img{
-  margin: 5px;
-  height: 4vw;
-}
+
 /* Styling The Sidebar  */
+
+.sidebox{
+  color: cornflowerblue;
+  background-color: #0000005b;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 2px;
+}
+
+.yeester{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.border{
+  margin: 1em;
+  width: 270px;
+  color: cornflowerblue;
+  background-color: #0000005b;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 2px;
+}
 
 .sidebar {
   min-width: 350px;
@@ -148,9 +187,8 @@ a {
 }
 
 .cbox,
-.discord,
-.update-log {
-  margin: 2em;
+.yeester{
+  margin: 1em;
 }
 
 .update-log {
@@ -161,10 +199,8 @@ a {
 }
 
 .log {
-  height: 420px;
-  width: 300px;
-  border-style: dotted;
-  border-color: red;
+  height: 400px;
+  width: 270px;
 }
 
 .log p {
@@ -215,7 +251,7 @@ a {
 }
 
 .webring img {
-  height: 1.9em;
+  height: 2.45em;
 }
 
 .counter h2 {
