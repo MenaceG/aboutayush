@@ -265,6 +265,10 @@ a {
 /* Media Queries  */
 
 @media only screen and (max-width: 1175px) {
+  .quote{
+    font-size: 0.8em;
+  }
+
   .head h1 {
     font-size: 4rem;
     margin-right: 8%;
@@ -296,6 +300,11 @@ a {
 }
 
 @media only screen and (max-width: 715px) {
+
+  .quote{
+    font-size: 0.7em;
+  }
+
   .head h1 {
     font-size: 2.5em;
   }
@@ -333,6 +342,11 @@ a {
   }
 }
 @media only screen and (max-width: 516px) {
+
+  .quote{
+    font-size: 0.6em;
+  }
+
   .head h1 {
     font-size: 2em;
   }
@@ -348,6 +362,11 @@ a {
 }
 
 @media only screen and (max-width: 415px) {
+
+  .quote{
+    font-size: 0.5em;
+  }
+
   /* .body{
     margin: 0;
   } */
@@ -402,6 +421,11 @@ a {
 }
 
 @media only screen and (max-width: 360px) {
+
+  .quote{
+    font-size: 0.4em;
+  }
+
   .head h1 {
     font-size: 1.3rem;
   }
