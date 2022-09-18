@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
   margin-bottom: 0;
 }
 
-.head img{
+.head img {
   width: 8%;
 }
 
@@ -56,17 +56,17 @@ body::-webkit-scrollbar {
   margin: 1em;
 }
 
-.intro .box h2 span{
+.intro .box h2 span {
   color: #bb121d;
-  font-family: 'mrrobotregular';
+  font-family: "mrrobotregular";
 }
-  @font-face {
-    font-family: 'mrrobotregular';
-    src: url('mr-robot-font/mr_robot-webfont.woff2') format('woff2'),
-    url('mr-robot-font/mr_robot-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
+@font-face {
+  font-family: "mrrobotregular";
+  src: url("mr-robot-font/mr_robot-webfont.woff2") format("woff2"),
+    url("mr-robot-font/mr_robot-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 .intro,
 .about,
@@ -83,12 +83,12 @@ body::-webkit-scrollbar {
   border-width: 2px;
 }
 
-.intro p{
+.intro p {
   margin-top: -9px;
   padding-bottom: 20px;
 }
 
-#pfp{
+#pfp {
   margin: 1px 10px 7px 10px;
   float: left;
   height: 90px;
@@ -107,21 +107,20 @@ body::-webkit-scrollbar {
 .body p,
 ul,
 a {
-  font-family: 'PT Mono', monospace;
+  font-family: "PT Mono", monospace;
   margin-left: 3.5em;
   font-size: 0.9em;
   color: ghostwhite;
   margin-bottom: 10px;
 }
 
-.body ul{
+.body ul {
   line-height: 160%;
   list-style-image: url("/images/sqpurple.gif");
 }
 
 .specs {
   list-style-image: url("/images/sqpurple.gif");
-
 }
 
 .body h2 img {
@@ -141,22 +140,21 @@ a {
   font-family: "Rubik Glitch", cursive;
 }
 
-.quote h1{
-  font-family: 'PT Mono', monospace;
+.quote h1 {
+  font-family: "PT Mono", monospace;
   color: cornsilk;
   margin: 1.2em 3em 15px 3em;
   text-align: center;
   font-size: 1.4em;
 }
 
-#list{
+#list {
   color: lightblue;
 }
 
-
 /* Styling The Sidebar  */
 
-.sidebox{
+.sidebox {
   color: cornflowerblue;
   background-color: #0000005b;
   padding: 10px;
@@ -165,15 +163,14 @@ a {
   border-width: 2px;
 }
 
-.yeester{
+.yeester {
   display: flex;
   justify-content: center;
 }
 
-.yeester .box{
+.yeester .box {
   padding: 31px;
 }
-
 
 .sidebar {
   min-width: 350px;
@@ -202,7 +199,7 @@ a {
 }
 
 .cbox,
-.yeester{
+.yeester {
   margin: 1em;
 }
 
@@ -220,23 +217,23 @@ a {
 
 .log p {
   padding: 10px;
-  font-family: 'PT Mono', monospace;
+  font-family: "PT Mono", monospace;
   color: lightblue;
   font-size: 1.4rem;
 }
 
-.gif{
+.gif {
   padding: 10px;
   padding-bottom: 25px;
 }
 
-.gif .box{
+.gif .box {
   padding: 10px;
 }
 
 /* Styling The Footer */
 
-.webring{
+.webring {
   margin: 1.3rem;
   /* animation: linear infinite;
   animation-name: webring;
@@ -295,7 +292,7 @@ a {
     margin-left: 8%;
   }
 
-  .intro h1{
+  .intro h1 {
     font-size: 1.5em;
   }
 
@@ -328,7 +325,7 @@ a {
     font-size: 1.8rem;
   }
 
-  .intro h1{
+  .intro h1 {
     font-size: 1.2em;
   }
 
@@ -365,10 +362,9 @@ a {
     font-size: 1.1rem;
   }
 
-  .intro h1{
+  .intro h1 {
     font-size: 0.95em;
   }
-  
 }
 
 @media only screen and (max-width: 415px) {
@@ -419,10 +415,9 @@ a {
     margin-bottom: 15px;
   }
 
-  .intro h1{
+  .intro h1 {
     font-size: 0.8em;
   }
-
 }
 
 @media only screen and (max-width: 360px) {
@@ -454,8 +449,7 @@ a {
     font-weight: lighter;
   }
 
-  .intro h1{
+  .intro h1 {
     font-size: 0.7em;
   }
-
 }
