@@ -314,6 +314,9 @@ a {
     align-items: center;
     overflow-x: auto;
   }
+  .quote h1{
+    font-size: 1.1em;
+  }
 }
 
 @media only screen and (max-width: 715px) {
@@ -352,6 +355,11 @@ a {
     font-size: 0.8rem;
     font-weight: lighter;
   }
+
+  .quote h1{
+    font-size: 0.9em;
+  }
+
 }
 @media only screen and (max-width: 516px) {
   .head h1 {
@@ -365,6 +373,11 @@ a {
   .intro h1 {
     font-size: 0.95em;
   }
+
+  .quote h1{
+    font-size: 0.7em;
+  }
+
 }
 
 @media only screen and (max-width: 415px) {
@@ -418,6 +431,10 @@ a {
   .intro h1 {
     font-size: 0.8em;
   }
+
+  .quote h1{
+    font-size: 0.6em;
+  }
 }
 
 @media only screen and (max-width: 360px) {
@@ -451,5 +468,9 @@ a {
 
   .intro h1 {
     font-size: 0.7em;
+  }
+
+  .quote h1{
+    font-size: 0.5em;
   }
 }
