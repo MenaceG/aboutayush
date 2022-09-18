@@ -56,6 +56,18 @@ body::-webkit-scrollbar {
   margin: 1em;
 }
 
+.intro .box h2 span{
+  color: #bb121d;
+  font-family: 'mrrobotregular';
+}
+  @font-face {
+    font-family: 'mrrobotregular';
+    src: url('mr-robot-font/mr_robot-webfont.woff2') format('woff2'),
+    url('mr-robot-font/mr_robot-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 .intro,
 .about,
 .contact {
@@ -102,9 +114,14 @@ a {
   margin-bottom: 10px;
 }
 
-.body ul {
+.body ul{
   line-height: 160%;
   list-style-image: url("/images/sqpurple.gif");
+}
+
+.specs {
+  list-style-image: url("/images/sqpurple.gif");
+
 }
 
 .body h2 img {
@@ -132,6 +149,11 @@ a {
   font-size: 1.4em;
 }
 
+#list{
+  color: lightblue;
+}
+
+
 /* Styling The Sidebar  */
 
 .sidebox{
@@ -146,23 +168,16 @@ a {
 .yeester{
   display: flex;
   justify-content: center;
-  
 }
 
-.border{
-  margin: 1em;
-  width: 270px;
-  color: cornflowerblue;
-  background-color: #0000005b;
-  padding: 10px;
-  border-style: solid;
-  border-radius: 7px;
-  border-width: 2px;
+.yeester .box{
+  padding: 31px;
 }
+
 
 .sidebar {
   min-width: 350px;
-  max-height: 900px;
+  max-height: 1090px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -208,6 +223,15 @@ a {
   font-family: 'PT Mono', monospace;
   color: lightblue;
   font-size: 1.4rem;
+}
+
+.gif{
+  padding: 10px;
+  padding-bottom: 25px;
+}
+
+.gif .box{
+  padding: 10px;
 }
 
 /* Styling The Footer */
