@@ -89,7 +89,7 @@
                 <li>This Website was published on 12 April 2022.</li>
                 <li>
                   <a
-                    href="https://github.com/steamaltidxd/aboutayush"
+                    href="https://github.com/MenaceG/aboutayush"
                     target="_blank"
                     id="text"
                     >Source Code</a
@@ -195,7 +195,7 @@
 
           <div class="gif">
             <div class="box">
-              <img
+              <img id="random"
                 src="https://c.tenor.com/ETsbLpwtaoEAAAAd/smokey-nagata-boost.gif"
                 width="270"
               />
@@ -211,6 +211,7 @@
                 <p>★ 7/05/22 Fixed Some Issues, And Some Extras</p>
                 <p>★ 27/8/22 Major Changes In Theme</p>
                 <p>★ 19/9/22 Added PC Configuration</p>
+                <p>★ 24/9/22 Added Random Gifs</p>
               </div>
             </div>
           </div>
@@ -274,5 +275,33 @@
         </div>
       </div>
     </div>
+    <script>  
+
+    const gifs = ["https://c.tenor.com/0lVtZJ4bg5AAAAAC/geohot-george-hotz.gif", 
+                  "https://c.tenor.com/I29dpuLvCVYAAAAd/anime-one-punch-man.gif", 
+                  "https://c.tenor.com/ETsbLpwtaoEAAAAd/smokey-nagata-boost.gif",
+                  "https://c.tenor.com/TY_3sksSegUAAAAd/aquarius3-logic.gif",
+                  "https://c.tenor.com/QMHfH0zJ3w8AAAAd/luke-luke-smith.gif",
+                  "https://c.tenor.com/bNvyTtveBOgAAAAd/smokey-nagata.gif",
+                  "https://c.tenor.com/SgmugrPPO0MAAAAC/dylanm2bmb.gif",
+                  "https://c.tenor.com/fdlo2R1KfMUAAAAd/young-stunners-talha-anjum.gif",
+                  "https://c.tenor.com/e73LQkmBbcUAAAAC/mr-robot-happy.gif",
+                  "https://c.tenor.com/6UyxNeSNE_MAAAAd/mrrobot-elliot.gif",
+                  "https://c.tenor.com/N2X5s-T-jR0AAAAd/things-you-own-end-up-owning-you.gif",
+                  "https://c.tenor.com/rllfvXLD5ZoAAAAd/tyler-durden.gif",
+                  "https://c.tenor.com/9k3dfaJc0EUAAAAd/garou-garou-one-punch-man.gif",
+                  "https://c.tenor.com/fgCKRIKqio0AAAAC/logic-dance.gif",
+                  "https://c.tenor.com/70C1KB0qiQEAAAAC/krsna-krsna-rapper.gif",
+
+                ]
+
+      window.onload = randomGif();
+
+	    function randomGif() {
+			  rand = Math.floor(Math.random() * gifs.length);
+			  document.getElementById("random").src = gifs[rand];
+			}
+	   
+  </script>
   </body>
 </html>
